@@ -5,25 +5,24 @@
     --cor-flecha:  rgb(110, 109, 109);
 }
 div {
- text-align: right;
- display: flex;
+    text-align: center;
+    display: flex;
+    gap: 5px;
 }
 button svg {
     width: 30px;
     height: 30px;
-    
 }
 button {
     border-radius: 10em;
     padding: 16px;
-    background-color: var(--cor-figura);
+    background-color: var(--cor-1);
     border: none;
-    fill: var(--cor-1);
+    fill: var(--cor-figura);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
 }
 .caixaIcones span {
     position: absolute;
@@ -34,7 +33,7 @@ button {
     color: var(--cor-figura);
     padding: 2px;
     display: flex;
-    gap: 10px;
+    
 }
 .flecha {
     position: absolute;
@@ -46,21 +45,15 @@ button {
     width: 15px;
     background-color: var(--cor-flecha);
 }
-.caixaMaior{
+.caixaMaior {
+background-color: var(--cor-figura);
 display: flex;
 justify-content: space-between;
 align-items: center;
 font-size: 60px;
-color: var(--cor-figura);
+color: var(--cor-1);
 font-family: sans-serif;
 font-weight: bold;
 padding-right: 10px;
 padding-left: 10px;
-background-color: var(--cor-1);
-
 }
-body {
-    padding: 0px;
-    margin: 0px;
-}
-
